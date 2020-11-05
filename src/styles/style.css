@@ -1,0 +1,251 @@
+.navBar {
+  background: rgba(255, 255, 255, 0.562);
+  width: 100vw;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  position: fixed;
+  z-index: 3;
+}
+
+.navItemContainer {
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navItem {
+  list-style: none;
+  font-size: 20px;
+  opacity: 1 !important;
+  color: #202020;
+}
+
+.navItem:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.activeNavItem {
+  color: #4d004d;
+}
+
+video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: block;
+  position: fixed;
+  z-index: 0;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.heroTitleDiv {
+  z-index: 2;
+  height: 670px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+}
+
+.heroTitle {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 30px;
+  height: 160px;
+  border-radius: 10px;
+  color: #161616;
+}
+
+.aboutBg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  z-index: 2;
+}
+
+.sectionTitle {
+  margin-top: 100px;
+  text-align: center;
+  z-index: 1;
+  border-radius: 150px;
+}
+
+.aboutTextDiv {
+  min-width: 80%;
+  background-color: rgba(255, 255, 255, 0.733);
+  height: 70vh;
+  z-index: 1;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+.aboutImg {
+  z-index: 2;
+  position: absolute;
+  margin-top: -250px;
+  border-radius: 150px;
+  -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+.projectsDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  justify-self: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 80vw;
+  background-color: rgba(255, 255, 255, 0.733);
+  z-index: 1;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.projectItem {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-image: url("https://via.placeholder.com/250C/O https://placeholder.com/");
+  -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.4);
+  color: #222222;
+}
+
+.projectTextDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 100%;
+  margin: 0 10px;
+  margin-top: 150px;
+  place-items: center;
+  padding-bottom: 20px;
+  border-top-left-radius: 0px;
+}
+
+.projectTitle {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.description {
+  width: 220px;
+  text-align: center;
+  padding: 0 10px 10px 10px;
+  margin-top: 2px;
+}
+
+.projectButtonsDiv {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  z-index: 3;
+}
+
+.githubLogo:hover {
+  opacity: 0.4;
+}
+
+button {
+  background-color: black;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: 800;
+  -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.main {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #0b0710;
+}
+/*# sourceMappingURL=style.css.map */
