@@ -1,0 +1,45 @@
+.contactBg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: flex-end;
+  z-index: 2;
+  background-repeat: no-repeat;
+}
+.fenceGrass {
+  width: 100%;
+  z-index: 0;
+  height: 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  justify-self: flex-end;
+  background-image: url("../components/images/fenceBg.svg");
+}
+.contactDiv {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  align-content: center;
+  justify-content: space-around;
+  height: 200px;
+  padding: 30px;
+  background-color: rgba(255, 253, 247, 0);
+  z-index: 1;
+  text-align: center;
+  color: #fdfcf2;
+
+  a {
+    text-decoration: none;
+    color: #fdfcf2;
+  }
+}
+
+.divider {
+  height: 1px;
+  background-color: #fdfcf2;
+  width: 200px;
+}

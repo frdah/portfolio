@@ -1,18 +1,20 @@
 import React from "react";
-import Hero from "./components/Hero/Hero";
+import Home from "./pages/Home";
 import Nav from "./components/Nav/Nav";
 import AboutMe from "./pages/AboutMe";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="main">
       <Nav />
-      <Hero />
+      <Home />
       <AboutMe />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }

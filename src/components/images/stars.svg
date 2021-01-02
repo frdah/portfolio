@@ -1,0 +1,45 @@
+<svg width="1725" height="921" viewBox="0 0 1725 921" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<path class="oddStar" d="M381 144.5L383.5 147.5L381 150.5L378.5 147.5L381 144.5Z" fill="#FFF8E1"/>
+<path d="M15.5 116.5L16.5 123L15.5 129.5L14.5 123L15.5 116.5Z" fill="#FFF8E1"/>
+<path class="oddStar" d="M519 343.5L521.5 348L519 352.5L516.5 348L519 343.5Z" fill="#FFF8E1"/>
+<path d="M260.5 238.5L261.5 242.5L260.5 246.5L259.5 242.5L260.5 238.5Z" fill="#FFF8E1"/>
+<path class="oddStar" d="M654.5 64.5L657.5 68.5L654.5 72.5L651.5 68.5L654.5 64.5Z" fill="#FFF8E1"/>
+<path d="M58 514.5L59.5 517.5L58 520.5L56.5 517.5L58 514.5Z" fill="#FFF8E1"/>
+<path class="oddStar" d="M546 566.5L548.5 571.5L546 576.5L543.5 571.5L546 566.5Z" fill="#FFF8E1"/>
+<path class="oddStar" d="M1426 102.5L1428.5 105.5L1426 108.5L1423.5 105.5L1426 102.5Z" fill="#FFF8E1"/>
+<path class="oddStar" d="M1060.5 74.5L1061.5 81L1060.5 87.5L1059.5 81L1060.5 74.5Z" fill="#FFF8E1"/>
+<path d="M1564 301.5L1566.5 306L1564 310.5L1561.5 306L1564 301.5Z" fill="white"/>
+<path class="oddStar" d="M1305.5 196.5L1306.5 200.5L1305.5 204.5L1304.5 200.5L1305.5 196.5Z" fill="#FFF8E1"/>
+<path d="M1699.5 22.5L1702.5 26.5L1699.5 30.5L1696.5 26.5L1699.5 22.5Z" fill="white"/>
+<path class="oddStar" d="M1103 472.5L1104.5 475.5L1103 478.5L1101.5 475.5L1103 472.5Z" fill="#FFF8E1"/>
+<path d="M1591 524.5L1593.5 529.5L1591 534.5L1588.5 529.5L1591 524.5Z" fill="white"/>
+<path class="oddStar" d="M1229 730.5L1231.5 733.5L1229 736.5L1226.5 733.5L1229 730.5Z" fill="#FFF8E1"/>
+<path d="M863.5 702.5L864.5 709L863.5 715.5L862.5 709L863.5 702.5Z" fill="#FFF8E1"/>
+<path class="oddStar" d="M708 513.5L710.5 518L708 522.5L705.5 518L708 513.5Z" fill="#FFF8E1"/>
+<path d="M1092.5 812.5L1093.5 816.5L1092.5 820.5L1091.5 816.5L1092.5 812.5Z" fill="#FFF8E1"/>
+<path d="M1666.5 698.5L1669.5 702.5L1666.5 706.5L1663.5 702.5L1666.5 698.5Z" fill="white"/>
+<path class="oddStar" d="M1455 910.5L1456.5 913.5L1455 916.5L1453.5 913.5L1455 910.5Z" fill="#FFF8E1"/>
+<path d="M778 140.5L780.5 145L778 149.5L775.5 145L778 140.5Z" fill="#FFF8E1"/>
+<path d="M897.6 312.5L898.5 316.5L897.4 320.5L896.5 316.5L897.6 312.5Z" fill="#FFF8E1"/>
+<path class="oddStar" d="M381 144.5L383.5 147.5L381 150.5L378.5 147.5L381 144.5Z" fill="#FFF8E1"/>
+<path d="M15.5 116.5L16.5 123L15.5 129.5L14.5 123L15.5 116.5Z" fill="#FFF8E1"/>
+<path class="oddStar" d="M519 343.5L521.5 348L519 352.5L516.5 348L519 343.5Z" fill="#FFF8E1"/>
+<path d="M260.5 238.5L261.5 242.5L260.5 246.5L259.5 242.5L260.5 238.5Z" fill="#FFF8E1"/>
+<path class="oddStar" d="M58 514.5L59.5 517.5L58 520.5L56.5 517.5L58 514.5Z" fill="#FFF8E1"/>
+<path d="M546 566.5L548.5 571.5L546 576.5L543.5 571.5L546 566.5Z" fill="#FFF8E1"/>
+<path class="oddStar" d="M342 747.5L344.5 750.5L342 753.5L339.5 750.5L342 747.5Z" fill="#FFF8E1"/>
+<path d="M205.5 829.5L206.5 833.5L205.5 837.5L204.5 833.5L205.5 829.5Z" fill="#FFF8E1"/>
+</g>
+<defs>
+<filter id="filter0_d" x="-51" y="-4" width="1780" height="964" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.974667 0 0 0 0 0.841667 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
