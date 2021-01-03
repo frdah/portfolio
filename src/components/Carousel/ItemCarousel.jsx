@@ -4,6 +4,9 @@ import github from "../images/github.svg";
 import hemsson from "../images/hemsson.jpg";
 import business from "../images/business.jpg";
 import portfolio from "../images/portfolio.jpg";
+import todo from "../images/todo.jpg";
+import SpaceJourney from "../images/SpaceJurney.jpg";
+import cart from "../images/cart.jpg";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
@@ -29,9 +32,6 @@ export default function ItemCarousel() {
           <span>FIGMA</span>
           <span>ADOBE ILLUSTRATOR</span>
           <div className="projectButtonsDiv">
-            <a target="_blank" href="">
-              <button>Demo</button>
-            </a>
             <a
               target="_blank"
               className="githubLogo"
@@ -56,7 +56,7 @@ export default function ItemCarousel() {
           <span>SASS</span>
           <span>RESPONSIVE</span>
           <div className="projectButtonsDiv">
-            <a target="_blank" href="">
+            <a target="_blank" href="../../pages/webshop/Webbshopp_VG">
               <button>Demo</button>
             </a>
             <a
@@ -82,9 +82,6 @@ export default function ItemCarousel() {
           <span>STYLED COMPONENTS</span>
 
           <div className="projectButtonsDiv">
-            <a target="_blank" href="https://frdah.github.io/buisness-js3">
-              <button>Demo</button>
-            </a>
             <a
               className="githubLogo"
               target="_blank"
@@ -98,21 +95,22 @@ export default function ItemCarousel() {
 
       <div className="projectItem">
         <div className="projectTextDiv">
-          <h3 className="projectTitle">sdf</h3>
+          <img className="projectImg" src={cart} alt="" />
+          <h3 className="projectTitle">Shopping cart</h3>
           <p className="description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima,
-            quibusdam, quidem, laborum molestias nisi fugiat perspiciatis
-            tenetur quam libero qui neque? Debitis qui alias rem iste sapiente
-            cupiditate rerum eligendi.
+            This is a simple shopping cart where you can add items, remove
+            items, change quantity and order them.
           </p>
+          <span>Javascript</span>
+          <span>CSS</span>
           <div className="projectButtonsDiv">
-            <a target="_blank" href="">
+            <a target="_blank" href="https://frdah.github.io/shoppingCart">
               <button>Demo</button>
             </a>
             <a
               target="_blank"
               className="githubLogo"
-              href="https://github.com/frdah"
+              href="https://github.com/frdah/shoppingCart"
             >
               <img src={github} alt="github" />
             </a>
@@ -122,18 +120,44 @@ export default function ItemCarousel() {
 
       <div className="projectItem">
         <div className="projectTextDiv">
-          <h3 className="projectTitle">Title</h3>
+          <img className="projectImg" src={SpaceJourney} alt="" />
+
+          <h3 className="projectTitle">Space Journey</h3>
           <p className="description">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima,
-            quibusdam, quidem, laborum molestias nisi fugiat perspiciatis
-            tenetur quam libero qui neque? Debitis qui alias rem iste sapiente
-            cupiditate rerum eligendi.
+            A website where focus lies on responsive design and SASS
           </p>
+          <span>SASS</span>
+          <span>RESPONSIVE</span>
           <div className="projectButtonsDiv">
-            <a href="">
+            <a href="https://frdah.github.io/SpaceJurney/">
               <button>Demo</button>
             </a>
-            <a className="githubLogo" href="https://github.com/frdah">
+            <a
+              className="githubLogo"
+              href="https://github.com/frdah/SpaceJurney"
+            >
+              <img src={github} alt="github" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="projectItem">
+        <div className="projectTextDiv">
+          <img className="projectImg" src={todo} alt="" />
+          <h3 className="projectTitle">Todo</h3>
+          <p className="description">A simple todo app</p>
+          <span>Javascript</span>
+          <span>CSS</span>
+          <div className="projectButtonsDiv">
+            <a target="_blank" href="https://frdah.github.io/todoList">
+              <button>Demo</button>
+            </a>
+            <a
+              target="_blank"
+              className="githubLogo"
+              href="https://github.com/frdah/todoList"
+            >
               <img src={github} alt="github" />
             </a>
           </div>
