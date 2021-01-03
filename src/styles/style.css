@@ -476,7 +476,7 @@ h3 {
 }
 
 .aboutImg {
-  width: 110px;
+  width: 100px;
   z-index: 2;
   border-radius: 350px;
   -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.4);
@@ -642,13 +642,12 @@ h3 {
 }
 
 .computerGirl {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  margin-left: 0px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding-right: 2%;
   z-index: 2;
-  width: 90%;
-  margin-bottom: -100px;
+  width: 50%;
+  margin-bottom: -80px;
 }
 
 @media (min-width: 700px) {
@@ -657,6 +656,7 @@ h3 {
         align-self: flex-start;
     margin-left: 200px;
     width: 20%;
+    margin-bottom: -100px;
   }
 }
 
@@ -814,16 +814,6 @@ h3 {
   background-repeat: no-repeat;
 }
 
-.fenceGrass {
-  width: 100%;
-  z-index: 0;
-  height: 50%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  justify-self: flex-end;
-  background-image: url("../components/images/fenceBg.svg");
-}
-
 .contactDiv {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -884,7 +874,7 @@ h3 {
 }
 
 .footerDiv {
-  height: 15vh;
+  height: 20vh;
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -893,7 +883,7 @@ h3 {
       -ms-flex-pack: center;
           justify-content: center;
   background: url("../components/images/fenceBg.svg") no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-size: 100%;
   bottom: -30px;
   width: 100%;
@@ -910,6 +900,7 @@ h3 {
 @media (min-width: 700px) {
   .footerDiv {
     height: 45vh;
+    background-position: bottom;
   }
 }
 

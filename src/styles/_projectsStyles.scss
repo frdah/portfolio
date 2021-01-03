@@ -10,15 +10,16 @@
 }
 
 .computerGirl {
-  align-self: center;
-  margin-left: 0px;
+  align-self: flex-end;
+  padding-right: 2%;
   z-index: 2;
-  width: 90%;
-  margin-bottom: -100px;
+  width: 50%;
+  margin-bottom: -80px;
   @media (min-width: 700px) {
     align-self: flex-start;
     margin-left: 200px;
     width: 20%;
+    margin-bottom: -100px;
   }
 }
 .carousel {

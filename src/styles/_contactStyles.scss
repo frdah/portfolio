@@ -10,15 +10,7 @@
   z-index: 2;
   background-repeat: no-repeat;
 }
-.fenceGrass {
-  width: 100%;
-  z-index: 0;
-  height: 50%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  justify-self: flex-end;
-  background-image: url("../components/images/fenceBg.svg");
-}
+
 .contactDiv {
   display: flex;
   flex-direction: column;

@@ -11,24 +11,22 @@ export default function AboutMe() {
 
           <p>
             Hi there! I’m Frida, a front end developer student located in
-            Stockholm, Sweden. I will be finished with my studies at Nackademins
+            Stockholm. I will be finished with my studies at Nackademins
             Yrkeshögskola at the end of May, 2021. I am Currently searching for
             an unpaid internship starting in march since this is part of my
             education. I'm most comfortable working in React although I am very
-            open to learning new frameworks. In February I will be creating a
-            project in react-native so hopefully I will be learning the basics.
+            open to learning new frameworks.
           </p>
           <p>
             I am a very good team player although I am also very effective
             working by myself. I am a person who gets really invested in the
             projects I’m working on and find it very exciting to learn new ways
-            to be more effective and a better coder. During my previous
-            internship course, I worked on an admin panel for a startup company
-            with a couple other developer students. This project was done using
-            React and Redux and we learned to use formik, yup and react hook
-            forms and Material UI among other things. I find that I learned a
-            lot during this period and hopefully all learn just as much during
-            the next one.
+            to be a better coder. During my previous internship course, I worked
+            on an admin panel for a startup company with a couple other
+            students. This project was done using React and Redux and we learned
+            to use formik, yup and react hook forms and Material UI among other
+            things. I find that I learned a lot during this period and hopefully
+            all learn just as much during the next one.
           </p>
         </div>
       </div>
