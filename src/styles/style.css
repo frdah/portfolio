@@ -91,7 +91,7 @@
   align-items: center;
   height: 80%;
   padding: 0;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 @media (min-width: 700px) {
@@ -99,7 +99,7 @@
     margin-top: 0px;
     height: 60%;
     width: 40%;
-    font-size: 16px;
+    font-size: 18px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -324,7 +324,7 @@ video {
   border-radius: 10px;
   margin-top: 30px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .balloonHero {
@@ -358,6 +358,7 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 100px;
 }
 
 .aboutBg {
@@ -468,6 +469,9 @@ h3 {
     -ms-flex-item-align: end;
         align-self: flex-end;
     height: 70vh;
+  }
+  .aboutTextDiv p {
+    font-size: 16px;
   }
 }
 
@@ -637,12 +641,6 @@ h3 {
   justify-self: center;
 }
 
-@media (min-width: 700px) {
-  .projectsBg {
-    margin-top: 0;
-  }
-}
-
 .computerGirl {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -763,6 +761,18 @@ h3 {
   padding: 0 10px 10px 10px;
   margin-top: 2px;
   margin-bottom: 0;
+}
+
+.spanDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 3%;
+  width: 100%;
 }
 
 .projectButtonsDiv {
@@ -888,7 +898,7 @@ h3 {
   bottom: -30px;
   width: 100%;
   position: fixed;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 @media (min-height: 430px) {
@@ -976,11 +986,12 @@ h1 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 span {
-  font-size: 12px;
+  font-size: 14px;
+  margin: 1%;
   margin-bottom: 1%;
   padding: 1%;
   background: #171336;

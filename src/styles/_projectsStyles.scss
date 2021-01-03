@@ -7,10 +7,6 @@
   justify-content: center;
   align-self: center;
   justify-self: center;
-
-  @media (min-width: 700px) {
-    margin-top: 0;
-  }
 }
 
 .computerGirl {
@@ -97,6 +93,13 @@
   margin-bottom: 0;
 }
 
+.spanDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 3%;
+  width: 100%;
+}
 .projectButtonsDiv {
   width: 80%;
   margin-top: 15px;

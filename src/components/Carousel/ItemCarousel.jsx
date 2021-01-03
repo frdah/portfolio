@@ -26,11 +26,13 @@ export default function ItemCarousel() {
           <p className="description">
             This portfolio was made by designing and creating a lot of svg files
           </p>
-          <span>REACT</span>
-          <span>SASS</span>
-          <span>RESPONSIVE</span>
-          <span>FIGMA</span>
-          <span>ADOBE ILLUSTRATOR</span>
+          <div className="spanDiv">
+            <span>REACT</span>
+            <span>SASS</span>
+            <span>RESPONSIVE</span>
+            <span>FIGMA</span>
+            <span>ADOBE ILLUSTRATOR</span>
+          </div>
           <div className="projectButtonsDiv">
             <a
               target="_blank"
@@ -49,14 +51,18 @@ export default function ItemCarousel() {
           <h3 className="projectTitle">Hemsson (shop)</h3>
           <p className="description">
             Hemsson is a school group project where you can order as a customer
-            and view your order as well as check the status of that order. If
-            you go to /admin you can also update orders.
+            and view your order as well as check the status of that order. You
+            can view and update orders in the adminpanel at /webshop/adminpanel
           </p>
-          <span>PHP</span>
-          <span>SASS</span>
-          <span>RESPONSIVE</span>
+          <div className="spanDiv">
+            <span>PHP</span>
+            <span>SASS</span>
+            <span>RESPONSIVE</span>
+            <span>MySQL</span>
+            <span>Scrum</span>
+          </div>
           <div className="projectButtonsDiv">
-            <a target="_blank" href="../../pages/webshop/Webbshopp_VG">
+            <a target="_blank" href="http://fridajohansson.codes/webshop/">
               <button>Demo</button>
             </a>
             <a
@@ -78,9 +84,10 @@ export default function ItemCarousel() {
             may create an account, login, view create and delete customers and
             view them in a list or their details.
           </p>
-          <span>REACT</span>
-          <span>STYLED COMPONENTS</span>
-
+          <div className="spanDiv">
+            <span>REACT</span>
+            <span>STYLED COMPONENTS</span>
+          </div>
           <div className="projectButtonsDiv">
             <a
               className="githubLogo"
@@ -101,8 +108,10 @@ export default function ItemCarousel() {
             This is a simple shopping cart where you can add items, remove
             items, change quantity and order them.
           </p>
-          <span>Javascript</span>
-          <span>CSS</span>
+          <div className="spanDiv">
+            <span>Javascript</span>
+            <span>CSS</span>
+          </div>
           <div className="projectButtonsDiv">
             <a target="_blank" href="https://frdah.github.io/shoppingCart">
               <button>Demo</button>
@@ -126,13 +135,16 @@ export default function ItemCarousel() {
           <p className="description">
             A website where focus lies on responsive design and SASS
           </p>
-          <span>SASS</span>
-          <span>RESPONSIVE</span>
+          <div className="spanDiv">
+            <span>SASS</span>
+            <span>RESPONSIVE</span>
+          </div>
           <div className="projectButtonsDiv">
-            <a href="https://frdah.github.io/SpaceJurney/">
+            <a target="_blank" href="https://frdah.github.io/SpaceJurney/">
               <button>Demo</button>
             </a>
             <a
+              target="_blank"
               className="githubLogo"
               href="https://github.com/frdah/SpaceJurney"
             >
@@ -147,8 +159,10 @@ export default function ItemCarousel() {
           <img className="projectImg" src={todo} alt="" />
           <h3 className="projectTitle">Todo</h3>
           <p className="description">A simple todo app</p>
-          <span>Javascript</span>
-          <span>CSS</span>
+          <div className="spanDiv">
+            <span>Javascript</span>
+            <span>CSS</span>
+          </div>
           <div className="projectButtonsDiv">
             <a target="_blank" href="https://frdah.github.io/todoList">
               <button>Demo</button>
