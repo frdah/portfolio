@@ -26,7 +26,7 @@ export default function AboutMe() {
             students. This project was done using React and Redux and we learned
             to use formik, yup and react hook forms and Material UI among other
             things. I find that I learned a lot during this period and hopefully
-            all learn just as much during the next one.
+            I'll learn just as much during the next one.
           </p>
         </div>
       </div>
